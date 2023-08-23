@@ -12,7 +12,7 @@
 
 ## Introduction
 
-Welcome to the comprehensive GitHub repository for **Mastering AWS Application Load Balancer and EC2 Instance with Terraform: Building a Scalable 3-Tier VPC**. In today's fast-paced digital landscape, cloud infrastructure plays a pivotal role in delivering robust applications. This repository aims to guide you through the process of setting up a well-structured Virtual Private Cloud (VPC) that encapsulates web, application, and database tiers, all managed via Terraform.
+Welcome to the comprehensive GitHub repository for **Mastering AWS Application Load Balancer and EC2 Instance with Terraform: Building a Scalable 3-Tier VPC**. In today's fast-paced digital landscape, cloud infrastructure plays a pivotal role in delivering robust applications. This repository details the process of setting up a well-structured Virtual Private Cloud (VPC) that encapsulates web, application, and database tiers, all managed via Terraform.
 
 ---
 
@@ -24,13 +24,13 @@ Developers and DevOps engineers often face challenges when it comes to efficient
 
 **Solution:**
 
-This GitHub repository presents a comprehensive solution to the challenges mentioned above. By utilizing Terraform's Infrastructure as Code (IaC) capabilities, we offer a streamlined approach to crafting a robust 3-Tier Architecture on AWS. Here's how our solution addresses the key pain points:
+This GitHub repository presents a comprehensive solution to the challenges mentioned above. By utilizing Terraform's Infrastructure as Code (IaC) capabilities, we offer a streamlined approach to crafting a robust 3-Tier Architecture on AWS. Here's how this solution addresses the key pain points:
 
 1. **Automation and Reproducibility:** The entire infrastructure setup, including the VPC, subnets, security groups, instances, and load balancer, is defined as code using Terraform. This ensures consistent and repeatable deployments, reducing human errors and promoting efficient collaboration.
 
 2. **Modularity and Flexibility:** Our solution embraces a modular design, enabling you to tailor the architecture to your project's needs. Each component is encapsulated within its module, allowing easy customization and scaling as your application grows.
 
-3. **Security and Isolation:** We focus on robust security practices by creating dedicated security groups for instances, including private EC2 instances and the bastion host. Network segmentation ensures that each tier is isolated, enhancing security.
+3. **Security and Isolation:** Robust security practices are enacted by creating dedicated security groups for instances, including private EC2 instances and the bastion host. Network segmentation ensures that each tier is isolated, enhancing security.
 
 4. **High Availability and Load Balancing:** With the setup of an Application Load Balancer (ALB) and target groups, traffic distribution becomes seamless. Instances in the private subnets are attached to these target groups, ensuring high availability and efficient resource utilization.
 
